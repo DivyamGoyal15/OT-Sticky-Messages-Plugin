@@ -1,0 +1,25 @@
+{
+    "name":"OT Sticky Messages",
+    "id":"ot-sticky-messages",
+    "version":"2.0.0",
+    "startFile":"index.ts",
+    "supportedVersions":["OTv4.0.x","OTv4.1.x","OTv4.2.x"],
+
+    "enabled":true,
+    "priority":0,
+    "events":[],
+
+    "npmDependencies":[],
+    "requiredPlugins":[],
+    "incompatiblePlugins":[],
+
+    "details":{
+        "author":"Divyam Goyal",
+        "contributors":[],
+        "shortDescription":"Manage advanced per-channel sticky messages with variables, schedules, reactions, expiration, and dashboard control.",
+        "longDescription":"Adds a slash command and local dashboard to create and manage sticky messages per channel. Supports text, embed, and attachment stickies, variables, message cooldowns, ignored roles, timed resend mode, expiration, schedules, reaction triggers, enable/disable toggles, analytics, and persistent sticky state.",
+        "imageUrl":"",
+        "projectUrl":"",
+        "tags":["sticky","messages","utility","channels"]
+    }
+}
